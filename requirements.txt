@@ -1,45 +1,46 @@
-asgiref @ file:///home/lenovo/.cache/pypoetry/artifacts/12/c6/58/b461520efbe0ac0a67261f2d665156c3efabcc6392f021f3db62abbd51/asgiref-3.5.0-py3-none-any.whl
-backports.zoneinfo==0.2.1
-black==21.12b0
-certifi==2021.10.8
-charset-normalizer @ file:///home/lenovo/.cache/pypoetry/artifacts/d5/30/7e/2900610df8360e6f3f6493f0fdf18de011be2a4c768ae0ef536861dddb/charset_normalizer-2.0.11-py3-none-any.whl
-click==8.0.3
-cloudinary==1.28.1
-dataclasses==0.6
-Django @ file:///home/lenovo/.cache/pypoetry/artifacts/24/48/77/f3e19922053876f74f44b449e8e24b4085e8454c59fb8e7024b2808c0a/Django-4.0.3-py3-none-any.whl
-django-cloudinary-storage @ file:///home/lenovo/.cache/pypoetry/artifacts/1e/d9/90/2a393f4d62953de07452314573d82c49e2ade987393400bc6bc9b07551/django_cloudinary_storage-0.3.0-py3-none-any.whl
-django-cors-headers @ file:///home/lenovo/.cache/pypoetry/artifacts/25/5b/9f/bc22a92ae6e0ed246fdfd50bf9d0ea31f05f82bce8414ba8c617cff2cf/django_cors_headers-3.11.0-py3-none-any.whl
-django-environ @ file:///home/lenovo/.cache/pypoetry/artifacts/48/81/25/27d1f75f11e5ecbf4bc3899a97844d70d8db6ae138fdd42a9a635ba426/django_environ-0.8.1-py2.py3-none-any.whl
-django-filter @ file:///home/lenovo/.cache/pypoetry/artifacts/5a/68/8a/77b40dc782662c89a85de68752ca22242c38218dc94ea9115eaa597532/django_filter-21.1-py3-none-any.whl
-django-jsonfield @ file:///home/lenovo/.cache/pypoetry/artifacts/1c/0e/a0/96bbd17cc83545848067a08b1f79eb1e9af38ecf24b34def4ac0e36a0f/django_jsonfield-1.4.1-py2.py3-none-any.whl
-django-rest-auth==0.9.5
-django-stripe-payments==2.0.0
-django-uuidfield==0.5.0
-django-versatileimagefield @ file:///home/lenovo/.cache/pypoetry/artifacts/f6/30/6f/6d6f6a7baf8843a44a8fb1fa7a9cf612a3bded4d23d31d2f0b40c95ab1/django_versatileimagefield-2.2-py2.py3-none-any.whl
-djangorestframework==3.13.1
-djangorestframework-simplejwt==5.0.0
-djongo==1.3.6
-dnspython==2.1.0
-drf-flex-fields==0.9.7
-gunicorn==20.1.0
-idna==3.3
-mypy-extensions==0.4.3
-mysqlclient==2.1.0
-pathspec==0.9.0
-Pillow==9.0.0
-pkg_resources==0.0.0
-platformdirs==2.4.1
-PyJWT==2.3.0
-pymongo==3.12.1
-python-magic @ file:///home/lenovo/.cache/pypoetry/artifacts/45/f2/93/ce97a3ad361da42a711d1e85f9bd35de32a7302d4c0cfde99ab6ca9eca/python_magic-0.4.15-py2.py3-none-any.whl
-pytz==2021.3
-razorpay @ file:///home/lenovo/.cache/pypoetry/artifacts/be/af/73/b258621fef3e248c26a6943276a8b1023492468b680738e42dbfda92a7/razorpay-1.3.0-py3-none-any.whl
-requests @ file:///home/lenovo/.cache/pypoetry/artifacts/dc/17/bf/8d9779110a13421f6181028974b24800ec70f28bf9b311411e1868b8c7/requests-2.27.1-py2.py3-none-any.whl
-six==1.16.0
-sqlparse==0.4.2
-stripe @ file:///home/lenovo/.cache/pypoetry/artifacts/b4/43/ae/dfe35817957b4a732e72418a1438d843e42d63170276c074aa0aa8a55d/stripe-2.65.0-py2.py3-none-any.whl
-tomli==1.2.3
-typing_extensions==4.0.1
-urllib3 @ file:///home/lenovo/.cache/pypoetry/artifacts/66/2a/bb/22b56fafb85086d3ee6c6807644cffcd5fa6fc2bc537780143368ab6a9/urllib3-1.26.8-py2.py3-none-any.whl
-uuid==1.30
-whitenoise @ file:///home/lenovo/.cache/pypoetry/artifacts/b6/4d/0c/bd379f9fa67f591dd8cb8f58707fdaa005992a0329f18c5c9f19a1a0a2/whitenoise-6.0.0-py3-none-any.whl
+asgiref==3.5.0; python_version >= "3.8" \
+    --hash=sha256:88d59c13d634dcffe0510be048210188edd79aeccb6a6c9028cdad6f31d730a9 \
+    --hash=sha256:2f8abc20f7248433085eda803936d98992f1343ddb022065779f37c5da0181d0
+backports.zoneinfo==0.2.1; python_version < "3.9" and python_version >= "3.8" \
+    --hash=sha256:da6013fd84a690242c310d77ddb8441a559e9cb3d3d59ebac9aca1a57b2e18bc \
+    --hash=sha256:89a48c0d158a3cc3f654da4c2de1ceba85263fafb861b98b59040a5086259722 \
+    --hash=sha256:1c5742112073a563c81f786e77514969acb58649bcdf6cdf0b4ed31a348d4546 \
+    --hash=sha256:e8236383a20872c0cdf5a62b554b27538db7fa1bbec52429d8d106effbaeca08 \
+    --hash=sha256:8439c030a11780786a2002261569bdf362264f605dfa4d65090b64b05c9f79a7 \
+    --hash=sha256:f04e857b59d9d1ccc39ce2da1021d196e47234873820cbeaad210724b1ee28ac \
+    --hash=sha256:17746bd546106fa389c51dbea67c8b7c8f0d14b5526a579ca6ccf5ed72c526cf \
+    --hash=sha256:5c144945a7752ca544b4b78c8c41544cdfaf9786f25fe5ffb10e838e19a27570 \
+    --hash=sha256:e55b384612d93be96506932a786bbcde5a2db7a9e6a4bb4bffe8b733f5b9036b \
+    --hash=sha256:a76b38c52400b762e48131494ba26be363491ac4f9a04c1b7e92483d169f6582 \
+    --hash=sha256:8961c0f32cd0336fb8e8ead11a1f8cd99ec07145ec2931122faaac1c8f7fd987 \
+    --hash=sha256:e81b76cace8eda1fca50e345242ba977f9be6ae3945af8d46326d776b4cf78d1 \
+    --hash=sha256:7b0a64cda4145548fed9efc10322770f929b944ce5cee6c0dfe0c87bf4c0c8c9 \
+    --hash=sha256:1b13e654a55cd45672cb54ed12148cd33628f672548f373963b0bff67b217328 \
+    --hash=sha256:4a0f800587060bf8880f954dbef70de6c11bbe59c673c3d818921f042f9954a6 \
+    --hash=sha256:fadbfe37f74051d024037f223b8e001611eac868b5c5b06144ef4d8b799862f2
+django-cors-headers==3.11.0; python_version >= "3.7" \
+    --hash=sha256:eb98389bf7a2afc5d374806af4a9149697e3a6955b5a2dc2bf049f7d33647456 \
+    --hash=sha256:a22be2befd4069c4fc174f11cf067351df5c061a3a5f94a01650b4e928b0372b
+django-uuidfield==0.5.0 \
+    --hash=sha256:ec7db94ff6fc5b2a2f8edf6a9ab29b401a6a63d4523840fa0a3f1286ea45de86
+django==4.0.3; python_version >= "3.8" \
+    --hash=sha256:1239218849e922033a35d2a2f777cb8bee18bd725416744074f455f34ff50d0c \
+    --hash=sha256:77ff2e7050e3324c9b67e29b6707754566f58514112a9ac73310f60cd5261930
+djangorestframework==3.13.1; python_version >= "3.6" \
+    --hash=sha256:24c4bf58ed7e85d1fe4ba250ab2da926d263cd57d64b03e8dcef0ac683f8b1aa \
+    --hash=sha256:0c33407ce23acc68eca2a6e46424b008c9c02eceb8cf18581921d0092bc1f2ee
+gunicorn==20.1.0; python_version >= "3.5" \
+    --hash=sha256:9dcc4547dbb1cb284accfb15ab5667a0e5d1881cc443e0677b4882a4067a807e \
+    --hash=sha256:e0a968b5ba15f8a328fdfd7ab1fcb5af4470c28aaf7e55df02a99bc13138e6e8
+pytz==2021.3; python_version >= "3.6" \
+    --hash=sha256:3672058bc3453457b622aab7a1c3bfd5ab0bdae451512f6cf25f64ed37f5b87c \
+    --hash=sha256:acad2d8b20a1af07d4e4c9d2e9285c5ed9104354062f275f3fcd88dcef4f1326
+sqlparse==0.4.2; python_version >= "3.8" \
+    --hash=sha256:48719e356bb8b42991bdbb1e8b83223757b93789c00910a616a071910ca4a64d \
+    --hash=sha256:0c00730c74263a94e5a9919ade150dfc3b19c574389985446148402998287dae
+tzdata==2021.5; sys_platform == "win32" and python_version >= "3.8" \
+    --hash=sha256:3eee491e22ebfe1e5cfcc97a4137cd70f092ce59144d81f8924a844de05ba8f5 \
+    --hash=sha256:68dbe41afd01b867894bbdfd54fa03f468cfa4f0086bfb4adcd8de8f24f3ee21
+whitenoise==6.0.0; python_version >= "3.7" \
+    --hash=sha256:5a4aff543ee860fbe40d743e556adf92ccd41b7df45697cae074afdf657056b9 \
+    --hash=sha256:08c42bc535f9777eea1a599289d9433f081921f97887eaf6f559446b2a080374
