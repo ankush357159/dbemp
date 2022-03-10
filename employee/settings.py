@@ -67,6 +67,8 @@ WSGI_APPLICATION = "employee.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
+# Heroku database
+# postgres://dykunhuioebgrk:00e47d9ea6a7e8d64c0fd4ed80d6bfffc8bcbbab7bd2338844dfe87a6e1668d4@ec2-3-216-221-31.compute-1.amazonaws.com:5432/deb6nlqs7utl0i
 
 DATABASES = {
     "default": {
@@ -74,6 +76,9 @@ DATABASES = {
         "NAME": str(BASE_DIR / "db.sqlite3"),
     }
 }
+import dj_database_url
+db_from_env = dj_database_url.config(conn_max_age=600)
+DATABASES['default'].update(db_from_env)
 
 
 # Password validation
@@ -118,3 +123,4 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+# poetry export -f requirements.txt > requirements.txt
