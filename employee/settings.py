@@ -15,7 +15,7 @@ DEBUG = True
 CORS_ALLOW_ALL_ORIGINS = True
 
 # ALLOWED_HOSTS = ["192.168.0.108", "127.0.0.1", "localhost"]
-ALLOWED_HOSTS = ["dbemp.herokuapp.com", "127.0.0.1", "localhost", "empldbase.herokuapp.com"]
+ALLOWED_HOSTS = ["dbemp.herokuapp.com", "127.0.0.1", "localhost", "https://empldbase.herokuapp.com"]
 
 
 # Application definition
